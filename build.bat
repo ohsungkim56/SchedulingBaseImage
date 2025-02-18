@@ -1,0 +1,7 @@
+docker build ^
+--build-arg PJT_NAME="YOUR PJT NAME" ^
+--build-arg GIT_REPO="YOUR GIT REPOSITORY" ^
+--build-arg SCRIPT="YOUR SCIPRT NAME" ^
+--build-arg SYSTEM_TELEGRAM_BOT_TOKEN="YOUR TELTEGRAM TOKEN" ^
+--build-arg SYSTEM_TELEGRAM_BOT_CHAT_ID="YOUR TELTEGRAM CHAT ID" ^
+--tag "tag:0.0.1" .
